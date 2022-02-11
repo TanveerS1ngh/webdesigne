@@ -1,0 +1,130 @@
+<html>
+<body>
+<form>
+<style>
+body
+{
+  background-color:honeydew;
+  background-image:url('D:/Pics/326467.jpg');
+}
+h2
+{
+  font-family: Calibri; 
+  background-color: black;
+  text-shadow: 3px 2px firebrick;
+  font-style: normal; 
+  font-weight: bold; 
+  color:white;
+  text-align: center;
+}
+table
+{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 11pt; 
+  font-style:oblique;
+  font-weight: bold;
+  text-align:center;
+  background-image:url('D:/Pics/326467.jpg');
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 10px
+}
+</style>
+<h2>Abe Bhar Na Tu Bss</h2>
+<table align="center" cellpadding = "10">
+  
+<!----- First Name & Last Name --------->
+
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+</td>
+</tr>
+  
+<!----- Email Id ----------->
+
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+ 
+<!----- Mobile Number ------->
+
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+</td>
+</tr>
+ 
+<!----- Gender -------------->
+
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male" />
+Female <input type="radio" name="Gender" value="Female" />
+</td>
+</tr>
+ 
+<!----- Address ------------->
+
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<!----- Pin Code ------------>
+
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+</td>
+</tr>
+ 
+<!----- State --------------->
+
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+</td>
+</tr>
+ 
+<!----- Country ------------->
+
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="Country"/></td>
+</tr>
+ 
+<!----- Course -------------->
+
+<tr>
+<td>COURSES<br />APPLIED FOR</td>
+<td>
+BCA
+<input type="radio" name="Course_BCA" value="BCA">
+MCA
+<input type="radio" name="Course_MCA" value="MCA">
+</td>
+</tr>
+<!-----Submit and Reset----->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
